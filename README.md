@@ -1,40 +1,50 @@
 # CleanIPy
 
 <p align="center">
+  <img src="docs/icons/logo.svg" alt="CleanIPy Logo" width="150"/>
+</p>
+
+<p align="center">
   <strong>A powerful terminal-based storage cleaning utility for Python</strong>
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#development">Development</a> •
-  <a href="#license">License</a>
+  <a href="#-features">✨ Features</a> •
+  <a href="#-installation">🚀 Installation</a> •
+  <a href="#-usage">📋 Usage</a> •
+  <a href="#-screenshots">📸 Screenshots</a> •
+  <a href="#-development">👨‍💻 Development</a> •
+  <a href="#-license">📝 License</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.6+-blue.svg" alt="Python Version"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg" alt="Platform"/>
 </p>
 
 ---
 
-## Features
+## ✨ Features
 
 CleanIPy is a comprehensive storage cleaning utility that helps you analyze and free up disk space on your system. It provides a user-friendly terminal interface with the following features:
 
-- **Disk Usage Analysis**: View detailed information about disk usage across your system
-- **Directory Analysis**: Analyze directories to find large files and understand storage distribution
-- **Temporary Files Cleaning**: Identify and clean temporary files from system, browser, and package caches
-- **Duplicate Files Detection**: Find and manage duplicate files to reclaim wasted space
-- **Large Files Management**: Locate and clean large files that are consuming excessive storage
-- **Safe File Removal**: Files are sent to trash instead of being permanently deleted
-- **Rich Terminal UI**: User-friendly interface with tables, progress bars, and color-coded information
+- 📊 **Disk Usage Analysis**: View detailed information about disk usage across your system
+- 🔍 **Directory Analysis**: Analyze directories to find large files and understand storage distribution
+- 🧹 **Temporary Files Cleaning**: Identify and clean temporary files from system, browser, and package caches
+- 🔄 **Duplicate Files Detection**: Find and manage duplicate files to reclaim wasted space
+- 📦 **Large Files Management**: Locate and clean large files that are consuming excessive storage
+- 🗑️ **Safe File Removal**: Files are sent to trash instead of being permanently deleted
+- 💻 **Rich Terminal UI**: User-friendly interface with tables, progress bars, and color-coded information
 
-## Installation
+## 🚀 Installation
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Python 3.6 or higher
 - pip (Python package installer)
 
-### Install from Source
+### 📥 Install from Source
 
 ```bash
 # Clone the repository
@@ -51,9 +61,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -e .
 ```
 
-## Usage
+## 📋 Usage
 
-### Running CleanIPy
+### 🚀 Running CleanIPy
 
 After installation, you can run CleanIPy using the following command:
 
@@ -61,24 +71,24 @@ After installation, you can run CleanIPy using the following command:
 python -m cleanipy.main
 ```
 
-### Main Menu Options
+### 📑 Main Menu Options
 
-1. **Show disk usage**: Displays information about disk usage across all mounted filesystems
-2. **Analyze directory**: Analyzes a directory to find large files and understand storage distribution
-3. **Analyze temporary files**: Identifies temporary files that can be safely cleaned
-4. **Analyze duplicate files**: Finds duplicate files that are wasting storage space
-5. **Clean temporary files**: Removes temporary files to free up space
-6. **Clean large files**: Helps you identify and remove large files
-7. **Clean duplicate files**: Provides options to manage duplicate files (delete, replace with links)
-8. **Exit**: Exits the application
+1. 📊 **Show disk usage**: Displays information about disk usage across all mounted filesystems
+2. 🔍 **Analyze directory**: Analyzes a directory to find large files and understand storage distribution
+3. 📁 **Analyze temporary files**: Identifies temporary files that can be safely cleaned
+4. 🔄 **Analyze duplicate files**: Finds duplicate files that are wasting storage space
+5. 🧹 **Clean temporary files**: Removes temporary files to free up space
+6. 📦 **Clean large files**: Helps you identify and remove large files
+7. 🗑️ **Clean duplicate files**: Provides options to manage duplicate files (delete, replace with links)
+8. 🚪 **Exit**: Exits the application
 
-## Screenshots
+## 📸 Screenshots
 
 Screenshots will be added soon.
 
-## Development
+## 👨‍💻 Development
 
-### Project Structure
+### 📁 Project Structure
 
 ```
 cleanipy/
@@ -89,7 +99,7 @@ cleanipy/
 └── __init__.py        # Package initialization
 ```
 
-### Running Tests
+### 🧪 Running Tests
 
 ```bash
 # Install test dependencies
@@ -99,7 +109,7 @@ pip install -e ".[dev]"
 pytest
 ```
 
-### Contributing
+### 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -109,15 +119,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- [Rich](https://github.com/Textualize/rich) - For the beautiful terminal interface
-- [Click](https://click.palletsprojects.com/) - For command-line interface utilities
-- [Send2Trash](https://github.com/arsenetar/send2trash) - For safely sending files to trash
+- 🎨 [Rich](https://github.com/Textualize/rich) - For the beautiful terminal interface
+- 🖱️ [Click](https://click.palletsprojects.com/) - For command-line interface utilities
+- 🗑️ [Send2Trash](https://github.com/arsenetar/send2trash) - For safely sending files to trash
 
 ---
 
